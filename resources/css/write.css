@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+#container {
+    width: 1300px;
+    height: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#header {
+    width: 100%;
+    height: 150px;
+}
+    #toplogo {
+        width: 100%;
+        height: 120px;
+        text-align: center;
+    }
+    #logo {
+        width: 150px;
+        height: 100px;
+        
+    }
+    #nav {
+        width: 100%;
+        height: 30px;
+    }
+        #menu {
+            width: 100%;
+            position: relative;
+        }
+        #menu li {
+            position: relative;
+            height: 100%;
+            width: 25%;
+            float: left;
+            text-align: center;
+            font-size: 18px;
+            border-right: 1px solid #ccc;
+            margin-bottom: 20px;
+            font-family: 'Do Hyeon', sans-serif;
+        }
+        #menu li:last-child {
+            border: none;
+        }
+        #nav a:hover {
+            font-size: 19px;
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+        }
+            a:link, a:visited {
+                color: rgb(70, 32, 5);
+            }
+    #main {
+        width: 100%;
+        height: 1000px;
+        text-align: center;
+        margin: 60px auto;
+    }
+        #main-layer1 {
+            width: 50%;
+            height: 700px;
+            line-height: 3.5;
+            text-align: center;
+            float: left;
+            margin-top: 60px;
+            font-family: 'IBM Plex Sans KR', sans-serif;
+        }
+            #main-layer1 h1 {
+                color: rgb(70, 32, 5);
+            }
+            #main-layer1 [type=text] {
+                width: 250px;
+                height: 30px;
+            }
+            #main-layer1 [type=radio] {
+                width: 30px;
+                height: 12px;
+                margin: 20px;
+            }
+            #radiobox {
+                width: 80%;
+                margin: 0 auto;
+                border-top: 1px solid #ccc;
+                border-bottom: 1px solid #ccc;
+                margin-bottom: 60px;
+            }
+            #vos_text {
+                margin-top: 30px;
+                width: 350px;
+                height: 200px;
+            }
+        #main-layer2 {
+            width: 50%;
+            margin: 10px auto;
+            height: 700px;
+            line-height: 2;
+            padding: 30px;
+            float: left;
+            margin-top: 100px;
+            font-family: 'IBM Plex Sans KR', sans-serif;
+        }
+            #main-layer2 fieldset {
+                margin-top: 50px;
+                padding: 20px;
+                border: 2px solid rgb(167, 167, 167);
+            }
+            #main-layer2 div {
+                width: 85%;
+                margin: auto;
+                padding: 20px;
+                border: 1px solid #ccc;
+            }
+            .btn {
+                width: 200px;
+                height: 50px;
+                border: 1px solid #ccc;
+                font-size: 12px;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+    #footer {
+        width: 100%;
+        height: 100px;
+        border-top: 1px solid #ccc;
+        margin: 30px;
+    }
+    
+        #footer ul li {
+            float: left;
+            padding-left: 5px;
+            padding-right: 40px;
+            margin: 10px;
+            color: rgb(70, 32, 5);
+            font-size: 15px;
+            font-family: 'IBM Plex Sans KR', sans-serif;
+        }
