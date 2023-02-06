@@ -23,7 +23,7 @@
                 <ul id="menu">
                     <li><a href="../../../brand.jsp">About</a></li>
                     <li><a href="../../../bakery.jsp">OnlineShop</a></li>
-                    <li><a href="../../../contact.jsp">Contact</a></li>
+                    <li><a href="/notice/list">Contact</a></li>
                     <li><a href="../../../login.jsp">Login / Join</a></li>
                 </ul>
             </div>
