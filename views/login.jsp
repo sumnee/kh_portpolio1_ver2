@@ -7,7 +7,10 @@
         <meta charset="UTF-8">
         <title>로그인</title>
         <link rel="stylesheet" href="/resources/css/login.css">
-    </head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=IBM+Plex+Sans+KR:wght@300&display=swap" rel="stylesheet">
+</head>
     <body>
         <div id="container">
             <div id="header">
